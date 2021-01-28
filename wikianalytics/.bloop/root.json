@@ -1,0 +1,1452 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "root",
+        "directory": "/home/yyazdi/Project1/wikianalytics",
+        "workspaceDir": "/home/yyazdi/Project1/wikianalytics",
+        "sources": [
+            "/home/yyazdi/Project1/wikianalytics/src/main/scala",
+            "/home/yyazdi/Project1/wikianalytics/src/main/scala-2.13",
+            "/home/yyazdi/Project1/wikianalytics/src/main/scala-2",
+            "/home/yyazdi/Project1/wikianalytics/src/main/java",
+            "/home/yyazdi/Project1/wikianalytics/target/scala-2.13/src_managed/main"
+        ],
+        "dependencies": [
+            
+        ],
+        "classpath": [
+            "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.4/scala-library-2.13.4.jar",
+            "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/hadoop/hadoop-common/2.7.7/hadoop-common-2.7.7.jar",
+            "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-core/2.7.7/hadoop-mapreduce-client-core-2.7.7.jar",
+            "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/hadoop/hadoop-annotations/2.7.7/hadoop-annotations-2.7.7.jar",
+            "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/guava/guava/16.0.1/guava-16.0.1.jar",
+            "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-cli/commons-cli/1.2/commons-cli-1.2.jar",
+            "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-math3/3.1.1/commons-math3-3.1.1.jar",
+            "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/xmlenc/xmlenc/0.52/xmlenc-0.52.jar",
+            "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.jar",
+            "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-codec/commons-codec/1.6/commons-codec-1.6.jar",
+            "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4.jar",
+            "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-net/commons-net/3.1/commons-net-3.1.jar",
+            "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar",
+            "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar",
+            "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/mortbay/jetty/jetty/6.1.26/jetty-6.1.26.jar",
+            "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/mortbay/jetty/jetty-util/6.1.26/jetty-util-6.1.26.jar",
+            "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/mortbay/jetty/jetty-sslengine/6.1.26/jetty-sslengine-6.1.26.jar",
+            "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/servlet/jsp/jsp-api/2.1/jsp-api-2.1.jar",
+            "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/sun/jersey/jersey-core/1.9/jersey-core-1.9.jar",
+            "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/sun/jersey/jersey-json/1.9/jersey-json-1.9.jar",
+            "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/sun/jersey/jersey-server/1.9/jersey-server-1.9.jar",
+            "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar",
+            "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/log4j/log4j/1.2.17/log4j-1.2.17.jar",
+            "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jets3t/jets3t/0.9.0/jets3t-0.9.0.jar",
+            "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-lang/commons-lang/2.6/commons-lang-2.6.jar",
+            "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-configuration/commons-configuration/1.6/commons-configuration-1.6.jar",
+            "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.10/slf4j-api-1.7.10.jar",
+            "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-log4j12/1.7.10/slf4j-log4j12-1.7.10.jar",
+            "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13.jar",
+            "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13.jar",
+            "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/avro/avro/1.7.4/avro-1.7.4.jar",
+            "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0.jar",
+            "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar",
+            "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/hadoop/hadoop-auth/2.7.7/hadoop-auth-2.7.7.jar",
+            "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/jcraft/jsch/0.1.54/jsch-0.1.54.jar",
+            "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/curator/curator-client/2.7.1/curator-client-2.7.1.jar",
+            "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/curator/curator-recipes/2.7.1/curator-recipes-2.7.1.jar",
+            "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.0/jsr305-3.0.0.jar",
+            "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/htrace/htrace-core/3.1.0-incubating/htrace-core-3.1.0-incubating.jar",
+            "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/zookeeper/zookeeper/3.4.6/zookeeper-3.4.6.jar",
+            "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-compress/1.4.1/commons-compress-1.4.1.jar",
+            "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-common/2.7.7/hadoop-yarn-common-2.7.7.jar",
+            "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/inject/extensions/guice-servlet/3.0/guice-servlet-3.0.jar",
+            "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty/3.7.0.Final/netty-3.7.0.Final.jar",
+            "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/codehaus/jettison/jettison/1.1/jettison-1.1.jar",
+            "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/sun/xml/bind/jaxb-impl/2.2.3-1/jaxb-impl-2.2.3-1.jar",
+            "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/codehaus/jackson/jackson-jaxrs/1.9.13/jackson-jaxrs-1.9.13.jar",
+            "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/codehaus/jackson/jackson-xc/1.9.13/jackson-xc-1.9.13.jar",
+            "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/asm/asm/3.1/asm-3.1.jar",
+            "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.2.5/httpclient-4.2.5.jar",
+            "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.2.4/httpcore-4.2.4.jar",
+            "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/jamesmurty/utils/java-xmlbuilder/0.4/java-xmlbuilder-0.4.jar",
+            "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-digester/commons-digester/1.8/commons-digester-1.8.jar",
+            "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-beanutils/commons-beanutils-core/1.8.0/commons-beanutils-core-1.8.0.jar",
+            "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.3/paranamer-2.3.jar",
+            "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/xerial/snappy/snappy-java/1.0.4.1/snappy-java-1.0.4.1.jar",
+            "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/directory/server/apacheds-kerberos-codec/2.0.0-M15/apacheds-kerberos-codec-2.0.0-M15.jar",
+            "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/curator/curator-framework/2.7.1/curator-framework-2.7.1.jar",
+            "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/tukaani/xz/1.0/xz-1.0.jar",
+            "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-api/2.7.7/hadoop-yarn-api-2.7.7.jar",
+            "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/xml/bind/jaxb-api/2.2.2/jaxb-api-2.2.2.jar",
+            "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/sun/jersey/jersey-client/1.9/jersey-client-1.9.jar",
+            "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/inject/guice/3.0/guice-3.0.jar",
+            "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/sun/jersey/contribs/jersey-guice/1.9/jersey-guice-1.9.jar",
+            "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/mortbay/jetty/servlet-api/2.5-20081211/servlet-api-2.5-20081211.jar",
+            "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar",
+            "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/directory/server/apacheds-i18n/2.0.0-M15/apacheds-i18n-2.0.0-M15.jar",
+            "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/directory/api/api-asn1-api/1.0.0-M20/api-asn1-api-1.0.0-M20.jar",
+            "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/directory/api/api-util/1.0.0-M20/api-util-1.0.0-M20.jar",
+            "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/jline/jline/0.9.94/jline-0.9.94.jar",
+            "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar",
+            "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/activation/activation/1.1/activation-1.1.jar",
+            "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar",
+            "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.jar"
+        ],
+        "out": "/home/yyazdi/Project1/wikianalytics/.bloop/root",
+        "classesDir": "/home/yyazdi/Project1/wikianalytics/.bloop/root/scala-2.13/classes",
+        "resources": [
+            "/home/yyazdi/Project1/wikianalytics/src/main/resources",
+            "/home/yyazdi/Project1/wikianalytics/target/scala-2.13/resource_managed/main"
+        ],
+        "scala": {
+            "organization": "org.scala-lang",
+            "name": "scala-compiler",
+            "version": "2.13.4",
+            "options": [
+                
+            ],
+            "jars": [
+                "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.4/scala-compiler-2.13.4.jar",
+                "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.4/scala-library-2.13.4.jar",
+                "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.4/scala-reflect-2.13.4.jar",
+                "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.16.0/jline-3.16.0.jar",
+                "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1.jar"
+            ],
+            "analysis": "/home/yyazdi/Project1/wikianalytics/target/streams/compile/bloopAnalysisOut/_global/streams/inc_compile_2.13.zip",
+            "setup": {
+                "order": "mixed",
+                "addLibraryToBootClasspath": true,
+                "addCompilerToClasspath": false,
+                "addExtraJarsToClasspath": false,
+                "manageBootClasspath": true,
+                "filterLibraryFromClasspath": true
+            }
+        },
+        "java": {
+            "options": [
+                
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "/usr/lib/jvm/java-8-openjdk-amd64/jre",
+                "options": [
+                    "-Duser.dir=/home/yyazdi/Project1/wikianalytics"
+                ]
+            },
+            "mainClass": [
+                
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.13.4",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.4/scala-library-2.13.4.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.4/scala-library-2.13.4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.hadoop",
+                    "name": "hadoop-common",
+                    "version": "2.7.7",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "hadoop-common",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/hadoop/hadoop-common/2.7.7/hadoop-common-2.7.7.jar"
+                        },
+                        {
+                            "name": "hadoop-common",
+                            "classifier": "sources",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/hadoop/hadoop-common/2.7.7/hadoop-common-2.7.7-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.hadoop",
+                    "name": "hadoop-mapreduce-client-core",
+                    "version": "2.7.7",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "hadoop-mapreduce-client-core",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-core/2.7.7/hadoop-mapreduce-client-core-2.7.7.jar"
+                        },
+                        {
+                            "name": "hadoop-mapreduce-client-core",
+                            "classifier": "sources",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-core/2.7.7/hadoop-mapreduce-client-core-2.7.7-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.hadoop",
+                    "name": "hadoop-annotations",
+                    "version": "2.7.7",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "hadoop-annotations",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/hadoop/hadoop-annotations/2.7.7/hadoop-annotations-2.7.7.jar"
+                        },
+                        {
+                            "name": "hadoop-annotations",
+                            "classifier": "sources",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/hadoop/hadoop-annotations/2.7.7/hadoop-annotations-2.7.7-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.guava",
+                    "name": "guava",
+                    "version": "16.0.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "guava",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/guava/guava/16.0.1/guava-16.0.1.jar"
+                        },
+                        {
+                            "name": "guava",
+                            "classifier": "sources",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/guava/guava/16.0.1/guava-16.0.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "commons-cli",
+                    "name": "commons-cli",
+                    "version": "1.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "commons-cli",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-cli/commons-cli/1.2/commons-cli-1.2.jar"
+                        },
+                        {
+                            "name": "commons-cli",
+                            "classifier": "sources",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-cli/commons-cli/1.2/commons-cli-1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.commons",
+                    "name": "commons-math3",
+                    "version": "3.1.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "commons-math3",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-math3/3.1.1/commons-math3-3.1.1.jar"
+                        },
+                        {
+                            "name": "commons-math3",
+                            "classifier": "sources",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-math3/3.1.1/commons-math3-3.1.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "xmlenc",
+                    "name": "xmlenc",
+                    "version": "0.52",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "xmlenc",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/xmlenc/xmlenc/0.52/xmlenc-0.52.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "commons-httpclient",
+                    "name": "commons-httpclient",
+                    "version": "3.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "commons-httpclient",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.jar"
+                        },
+                        {
+                            "name": "commons-httpclient",
+                            "classifier": "sources",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "commons-codec",
+                    "name": "commons-codec",
+                    "version": "1.6",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "commons-codec",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-codec/commons-codec/1.6/commons-codec-1.6.jar"
+                        },
+                        {
+                            "name": "commons-codec",
+                            "classifier": "sources",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-codec/commons-codec/1.6/commons-codec-1.6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "commons-io",
+                    "name": "commons-io",
+                    "version": "2.4",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "commons-io",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4.jar"
+                        },
+                        {
+                            "name": "commons-io",
+                            "classifier": "sources",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "commons-net",
+                    "name": "commons-net",
+                    "version": "3.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "commons-net",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-net/commons-net/3.1/commons-net-3.1.jar"
+                        },
+                        {
+                            "name": "commons-net",
+                            "classifier": "sources",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-net/commons-net/3.1/commons-net-3.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "commons-collections",
+                    "name": "commons-collections",
+                    "version": "3.2.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "commons-collections",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar"
+                        },
+                        {
+                            "name": "commons-collections",
+                            "classifier": "sources",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "javax.servlet",
+                    "name": "servlet-api",
+                    "version": "2.5",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "servlet-api",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar"
+                        },
+                        {
+                            "name": "servlet-api",
+                            "classifier": "sources",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/servlet/servlet-api/2.5/servlet-api-2.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.mortbay.jetty",
+                    "name": "jetty",
+                    "version": "6.1.26",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jetty",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/mortbay/jetty/jetty/6.1.26/jetty-6.1.26.jar"
+                        },
+                        {
+                            "name": "jetty",
+                            "classifier": "sources",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/mortbay/jetty/jetty/6.1.26/jetty-6.1.26-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.mortbay.jetty",
+                    "name": "jetty-util",
+                    "version": "6.1.26",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jetty-util",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/mortbay/jetty/jetty-util/6.1.26/jetty-util-6.1.26.jar"
+                        },
+                        {
+                            "name": "jetty-util",
+                            "classifier": "sources",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/mortbay/jetty/jetty-util/6.1.26/jetty-util-6.1.26-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.mortbay.jetty",
+                    "name": "jetty-sslengine",
+                    "version": "6.1.26",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jetty-sslengine",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/mortbay/jetty/jetty-sslengine/6.1.26/jetty-sslengine-6.1.26.jar"
+                        },
+                        {
+                            "name": "jetty-sslengine",
+                            "classifier": "sources",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/mortbay/jetty/jetty-sslengine/6.1.26/jetty-sslengine-6.1.26-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "javax.servlet.jsp",
+                    "name": "jsp-api",
+                    "version": "2.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jsp-api",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/servlet/jsp/jsp-api/2.1/jsp-api-2.1.jar"
+                        },
+                        {
+                            "name": "jsp-api",
+                            "classifier": "sources",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/servlet/jsp/jsp-api/2.1/jsp-api-2.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.sun.jersey",
+                    "name": "jersey-core",
+                    "version": "1.9",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jersey-core",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/sun/jersey/jersey-core/1.9/jersey-core-1.9.jar"
+                        },
+                        {
+                            "name": "jersey-core",
+                            "classifier": "sources",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/sun/jersey/jersey-core/1.9/jersey-core-1.9-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.sun.jersey",
+                    "name": "jersey-json",
+                    "version": "1.9",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jersey-json",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/sun/jersey/jersey-json/1.9/jersey-json-1.9.jar"
+                        },
+                        {
+                            "name": "jersey-json",
+                            "classifier": "sources",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/sun/jersey/jersey-json/1.9/jersey-json-1.9-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.sun.jersey",
+                    "name": "jersey-server",
+                    "version": "1.9",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jersey-server",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/sun/jersey/jersey-server/1.9/jersey-server-1.9.jar"
+                        },
+                        {
+                            "name": "jersey-server",
+                            "classifier": "sources",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/sun/jersey/jersey-server/1.9/jersey-server-1.9-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "commons-logging",
+                    "name": "commons-logging",
+                    "version": "1.1.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "commons-logging",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar"
+                        },
+                        {
+                            "name": "commons-logging",
+                            "classifier": "sources",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "log4j",
+                    "name": "log4j",
+                    "version": "1.2.17",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "log4j",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/log4j/log4j/1.2.17/log4j-1.2.17.jar"
+                        },
+                        {
+                            "name": "log4j",
+                            "classifier": "sources",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/log4j/log4j/1.2.17/log4j-1.2.17-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "net.java.dev.jets3t",
+                    "name": "jets3t",
+                    "version": "0.9.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jets3t",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jets3t/jets3t/0.9.0/jets3t-0.9.0.jar"
+                        },
+                        {
+                            "name": "jets3t",
+                            "classifier": "sources",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jets3t/jets3t/0.9.0/jets3t-0.9.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "commons-lang",
+                    "name": "commons-lang",
+                    "version": "2.6",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "commons-lang",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-lang/commons-lang/2.6/commons-lang-2.6.jar"
+                        },
+                        {
+                            "name": "commons-lang",
+                            "classifier": "sources",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-lang/commons-lang/2.6/commons-lang-2.6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "commons-configuration",
+                    "name": "commons-configuration",
+                    "version": "1.6",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "commons-configuration",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-configuration/commons-configuration/1.6/commons-configuration-1.6.jar"
+                        },
+                        {
+                            "name": "commons-configuration",
+                            "classifier": "sources",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-configuration/commons-configuration/1.6/commons-configuration-1.6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.slf4j",
+                    "name": "slf4j-api",
+                    "version": "1.7.10",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "slf4j-api",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.10/slf4j-api-1.7.10.jar"
+                        },
+                        {
+                            "name": "slf4j-api",
+                            "classifier": "sources",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.10/slf4j-api-1.7.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.slf4j",
+                    "name": "slf4j-log4j12",
+                    "version": "1.7.10",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "slf4j-log4j12",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-log4j12/1.7.10/slf4j-log4j12-1.7.10.jar"
+                        },
+                        {
+                            "name": "slf4j-log4j12",
+                            "classifier": "sources",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-log4j12/1.7.10/slf4j-log4j12-1.7.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.codehaus.jackson",
+                    "name": "jackson-core-asl",
+                    "version": "1.9.13",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jackson-core-asl",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13.jar"
+                        },
+                        {
+                            "name": "jackson-core-asl",
+                            "classifier": "sources",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.codehaus.jackson",
+                    "name": "jackson-mapper-asl",
+                    "version": "1.9.13",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jackson-mapper-asl",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13.jar"
+                        },
+                        {
+                            "name": "jackson-mapper-asl",
+                            "classifier": "sources",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.avro",
+                    "name": "avro",
+                    "version": "1.7.4",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "avro",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/avro/avro/1.7.4/avro-1.7.4.jar"
+                        },
+                        {
+                            "name": "avro",
+                            "classifier": "sources",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/avro/avro/1.7.4/avro-1.7.4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.protobuf",
+                    "name": "protobuf-java",
+                    "version": "2.5.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "protobuf-java",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0.jar"
+                        },
+                        {
+                            "name": "protobuf-java",
+                            "classifier": "sources",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.code.gson",
+                    "name": "gson",
+                    "version": "2.2.4",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "gson",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar"
+                        },
+                        {
+                            "name": "gson",
+                            "classifier": "sources",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/code/gson/gson/2.2.4/gson-2.2.4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.hadoop",
+                    "name": "hadoop-auth",
+                    "version": "2.7.7",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "hadoop-auth",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/hadoop/hadoop-auth/2.7.7/hadoop-auth-2.7.7.jar"
+                        },
+                        {
+                            "name": "hadoop-auth",
+                            "classifier": "sources",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/hadoop/hadoop-auth/2.7.7/hadoop-auth-2.7.7-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.jcraft",
+                    "name": "jsch",
+                    "version": "0.1.54",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jsch",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/jcraft/jsch/0.1.54/jsch-0.1.54.jar"
+                        },
+                        {
+                            "name": "jsch",
+                            "classifier": "sources",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/jcraft/jsch/0.1.54/jsch-0.1.54-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.curator",
+                    "name": "curator-client",
+                    "version": "2.7.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "curator-client",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/curator/curator-client/2.7.1/curator-client-2.7.1.jar"
+                        },
+                        {
+                            "name": "curator-client",
+                            "classifier": "sources",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/curator/curator-client/2.7.1/curator-client-2.7.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.curator",
+                    "name": "curator-recipes",
+                    "version": "2.7.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "curator-recipes",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/curator/curator-recipes/2.7.1/curator-recipes-2.7.1.jar"
+                        },
+                        {
+                            "name": "curator-recipes",
+                            "classifier": "sources",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/curator/curator-recipes/2.7.1/curator-recipes-2.7.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.code.findbugs",
+                    "name": "jsr305",
+                    "version": "3.0.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jsr305",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.0/jsr305-3.0.0.jar"
+                        },
+                        {
+                            "name": "jsr305",
+                            "classifier": "sources",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.0/jsr305-3.0.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.htrace",
+                    "name": "htrace-core",
+                    "version": "3.1.0-incubating",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "htrace-core",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/htrace/htrace-core/3.1.0-incubating/htrace-core-3.1.0-incubating.jar"
+                        },
+                        {
+                            "name": "htrace-core",
+                            "classifier": "sources",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/htrace/htrace-core/3.1.0-incubating/htrace-core-3.1.0-incubating-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.zookeeper",
+                    "name": "zookeeper",
+                    "version": "3.4.6",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "zookeeper",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/zookeeper/zookeeper/3.4.6/zookeeper-3.4.6.jar"
+                        },
+                        {
+                            "name": "zookeeper",
+                            "classifier": "sources",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/zookeeper/zookeeper/3.4.6/zookeeper-3.4.6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.commons",
+                    "name": "commons-compress",
+                    "version": "1.4.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "commons-compress",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-compress/1.4.1/commons-compress-1.4.1.jar"
+                        },
+                        {
+                            "name": "commons-compress",
+                            "classifier": "sources",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-compress/1.4.1/commons-compress-1.4.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.hadoop",
+                    "name": "hadoop-yarn-common",
+                    "version": "2.7.7",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "hadoop-yarn-common",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-common/2.7.7/hadoop-yarn-common-2.7.7.jar"
+                        },
+                        {
+                            "name": "hadoop-yarn-common",
+                            "classifier": "sources",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-common/2.7.7/hadoop-yarn-common-2.7.7-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.inject.extensions",
+                    "name": "guice-servlet",
+                    "version": "3.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "guice-servlet",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/inject/extensions/guice-servlet/3.0/guice-servlet-3.0.jar"
+                        },
+                        {
+                            "name": "guice-servlet",
+                            "classifier": "sources",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/inject/extensions/guice-servlet/3.0/guice-servlet-3.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty",
+                    "version": "3.7.0.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty/3.7.0.Final/netty-3.7.0.Final.jar"
+                        },
+                        {
+                            "name": "netty",
+                            "classifier": "sources",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty/3.7.0.Final/netty-3.7.0.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.codehaus.jettison",
+                    "name": "jettison",
+                    "version": "1.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jettison",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/codehaus/jettison/jettison/1.1/jettison-1.1.jar"
+                        },
+                        {
+                            "name": "jettison",
+                            "classifier": "sources",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/codehaus/jettison/jettison/1.1/jettison-1.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.sun.xml.bind",
+                    "name": "jaxb-impl",
+                    "version": "2.2.3-1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jaxb-impl",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/sun/xml/bind/jaxb-impl/2.2.3-1/jaxb-impl-2.2.3-1.jar"
+                        },
+                        {
+                            "name": "jaxb-impl",
+                            "classifier": "sources",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/sun/xml/bind/jaxb-impl/2.2.3-1/jaxb-impl-2.2.3-1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.codehaus.jackson",
+                    "name": "jackson-jaxrs",
+                    "version": "1.9.13",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jackson-jaxrs",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/codehaus/jackson/jackson-jaxrs/1.9.13/jackson-jaxrs-1.9.13.jar"
+                        },
+                        {
+                            "name": "jackson-jaxrs",
+                            "classifier": "sources",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/codehaus/jackson/jackson-jaxrs/1.9.13/jackson-jaxrs-1.9.13-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.codehaus.jackson",
+                    "name": "jackson-xc",
+                    "version": "1.9.13",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jackson-xc",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/codehaus/jackson/jackson-xc/1.9.13/jackson-xc-1.9.13.jar"
+                        },
+                        {
+                            "name": "jackson-xc",
+                            "classifier": "sources",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/codehaus/jackson/jackson-xc/1.9.13/jackson-xc-1.9.13-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "asm",
+                    "name": "asm",
+                    "version": "3.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "asm",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/asm/asm/3.1/asm-3.1.jar"
+                        },
+                        {
+                            "name": "asm",
+                            "classifier": "sources",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/asm/asm/3.1/asm-3.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.httpcomponents",
+                    "name": "httpclient",
+                    "version": "4.2.5",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "httpclient",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.2.5/httpclient-4.2.5.jar"
+                        },
+                        {
+                            "name": "httpclient",
+                            "classifier": "sources",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.2.5/httpclient-4.2.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.httpcomponents",
+                    "name": "httpcore",
+                    "version": "4.2.4",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "httpcore",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.2.4/httpcore-4.2.4.jar"
+                        },
+                        {
+                            "name": "httpcore",
+                            "classifier": "sources",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.2.4/httpcore-4.2.4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.jamesmurty.utils",
+                    "name": "java-xmlbuilder",
+                    "version": "0.4",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "java-xmlbuilder",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/jamesmurty/utils/java-xmlbuilder/0.4/java-xmlbuilder-0.4.jar"
+                        },
+                        {
+                            "name": "java-xmlbuilder",
+                            "classifier": "sources",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/jamesmurty/utils/java-xmlbuilder/0.4/java-xmlbuilder-0.4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "commons-digester",
+                    "name": "commons-digester",
+                    "version": "1.8",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "commons-digester",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-digester/commons-digester/1.8/commons-digester-1.8.jar"
+                        },
+                        {
+                            "name": "commons-digester",
+                            "classifier": "sources",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-digester/commons-digester/1.8/commons-digester-1.8-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "commons-beanutils",
+                    "name": "commons-beanutils-core",
+                    "version": "1.8.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "commons-beanutils-core",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-beanutils/commons-beanutils-core/1.8.0/commons-beanutils-core-1.8.0.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.thoughtworks.paranamer",
+                    "name": "paranamer",
+                    "version": "2.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "paranamer",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.3/paranamer-2.3.jar"
+                        },
+                        {
+                            "name": "paranamer",
+                            "classifier": "sources",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.3/paranamer-2.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.xerial.snappy",
+                    "name": "snappy-java",
+                    "version": "1.0.4.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "snappy-java",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/xerial/snappy/snappy-java/1.0.4.1/snappy-java-1.0.4.1.jar"
+                        },
+                        {
+                            "name": "snappy-java",
+                            "classifier": "sources",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/xerial/snappy/snappy-java/1.0.4.1/snappy-java-1.0.4.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.directory.server",
+                    "name": "apacheds-kerberos-codec",
+                    "version": "2.0.0-M15",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "apacheds-kerberos-codec",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/directory/server/apacheds-kerberos-codec/2.0.0-M15/apacheds-kerberos-codec-2.0.0-M15.jar"
+                        },
+                        {
+                            "name": "apacheds-kerberos-codec",
+                            "classifier": "sources",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/directory/server/apacheds-kerberos-codec/2.0.0-M15/apacheds-kerberos-codec-2.0.0-M15-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.curator",
+                    "name": "curator-framework",
+                    "version": "2.7.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "curator-framework",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/curator/curator-framework/2.7.1/curator-framework-2.7.1.jar"
+                        },
+                        {
+                            "name": "curator-framework",
+                            "classifier": "sources",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/curator/curator-framework/2.7.1/curator-framework-2.7.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.tukaani",
+                    "name": "xz",
+                    "version": "1.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "xz",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/tukaani/xz/1.0/xz-1.0.jar"
+                        },
+                        {
+                            "name": "xz",
+                            "classifier": "sources",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/tukaani/xz/1.0/xz-1.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.hadoop",
+                    "name": "hadoop-yarn-api",
+                    "version": "2.7.7",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "hadoop-yarn-api",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-api/2.7.7/hadoop-yarn-api-2.7.7.jar"
+                        },
+                        {
+                            "name": "hadoop-yarn-api",
+                            "classifier": "sources",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-api/2.7.7/hadoop-yarn-api-2.7.7-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "javax.xml.bind",
+                    "name": "jaxb-api",
+                    "version": "2.2.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jaxb-api",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/xml/bind/jaxb-api/2.2.2/jaxb-api-2.2.2.jar"
+                        },
+                        {
+                            "name": "jaxb-api",
+                            "classifier": "sources",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/xml/bind/jaxb-api/2.2.2/jaxb-api-2.2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.sun.jersey",
+                    "name": "jersey-client",
+                    "version": "1.9",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jersey-client",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/sun/jersey/jersey-client/1.9/jersey-client-1.9.jar"
+                        },
+                        {
+                            "name": "jersey-client",
+                            "classifier": "sources",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/sun/jersey/jersey-client/1.9/jersey-client-1.9-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.inject",
+                    "name": "guice",
+                    "version": "3.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "guice",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/inject/guice/3.0/guice-3.0.jar"
+                        },
+                        {
+                            "name": "guice",
+                            "classifier": "sources",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/inject/guice/3.0/guice-3.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.sun.jersey.contribs",
+                    "name": "jersey-guice",
+                    "version": "1.9",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jersey-guice",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/sun/jersey/contribs/jersey-guice/1.9/jersey-guice-1.9.jar"
+                        },
+                        {
+                            "name": "jersey-guice",
+                            "classifier": "sources",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/sun/jersey/contribs/jersey-guice/1.9/jersey-guice-1.9-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.mortbay.jetty",
+                    "name": "servlet-api",
+                    "version": "2.5-20081211",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "servlet-api",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/mortbay/jetty/servlet-api/2.5-20081211/servlet-api-2.5-20081211.jar"
+                        },
+                        {
+                            "name": "servlet-api",
+                            "classifier": "sources",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/mortbay/jetty/servlet-api/2.5-20081211/servlet-api-2.5-20081211-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "commons-beanutils",
+                    "name": "commons-beanutils",
+                    "version": "1.7.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "commons-beanutils",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar"
+                        },
+                        {
+                            "name": "commons-beanutils",
+                            "classifier": "sources",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.directory.server",
+                    "name": "apacheds-i18n",
+                    "version": "2.0.0-M15",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "apacheds-i18n",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/directory/server/apacheds-i18n/2.0.0-M15/apacheds-i18n-2.0.0-M15.jar"
+                        },
+                        {
+                            "name": "apacheds-i18n",
+                            "classifier": "sources",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/directory/server/apacheds-i18n/2.0.0-M15/apacheds-i18n-2.0.0-M15-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.directory.api",
+                    "name": "api-asn1-api",
+                    "version": "1.0.0-M20",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "api-asn1-api",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/directory/api/api-asn1-api/1.0.0-M20/api-asn1-api-1.0.0-M20.jar"
+                        },
+                        {
+                            "name": "api-asn1-api",
+                            "classifier": "sources",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/directory/api/api-asn1-api/1.0.0-M20/api-asn1-api-1.0.0-M20-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.directory.api",
+                    "name": "api-util",
+                    "version": "1.0.0-M20",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "api-util",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/directory/api/api-util/1.0.0-M20/api-util-1.0.0-M20.jar"
+                        },
+                        {
+                            "name": "api-util",
+                            "classifier": "sources",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/directory/api/api-util/1.0.0-M20/api-util-1.0.0-M20-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "jline",
+                    "name": "jline",
+                    "version": "0.9.94",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jline",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/jline/jline/0.9.94/jline-0.9.94.jar"
+                        },
+                        {
+                            "name": "jline",
+                            "classifier": "sources",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/jline/jline/0.9.94/jline-0.9.94-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "javax.xml.stream",
+                    "name": "stax-api",
+                    "version": "1.0-2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "stax-api",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar"
+                        },
+                        {
+                            "name": "stax-api",
+                            "classifier": "sources",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "javax.activation",
+                    "name": "activation",
+                    "version": "1.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "activation",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/activation/activation/1.1/activation-1.1.jar"
+                        },
+                        {
+                            "name": "activation",
+                            "classifier": "sources",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/activation/activation/1.1/activation-1.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "javax.inject",
+                    "name": "javax.inject",
+                    "version": "1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "javax.inject",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar"
+                        },
+                        {
+                            "name": "javax.inject",
+                            "classifier": "sources",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "aopalliance",
+                    "name": "aopalliance",
+                    "version": "1.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "aopalliance",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.jar"
+                        },
+                        {
+                            "name": "aopalliance",
+                            "classifier": "sources",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.13.4",
+                    "configurations": "optional",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.4/scala-library-2.13.4.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/home/yyazdi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.4/scala-library-2.13.4-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "library"
+        ]
+    }
+}
