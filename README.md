@@ -12,7 +12,7 @@ Using big data tools to answer questions about datasets from Wikipedia. There ar
 * Analyze how many users will see the average vandalized wikipedia page before the offending edit is reversed.
 * Run an analysis you find interesting on the wikipedia datasets
 
-## Tools
+## Technologies Used
 * HiveQL
 * MapReduce
 * Hadoop
@@ -21,6 +21,14 @@ Using big data tools to answer questions about datasets from Wikipedia. There ar
 * Maven
 * YARN
 * Scala metals
+
+## Getting Started
+* git clone https://github.com/yyazdi13/Project1.git
+* start HDFS: $HADOOP_HOME/sbin/start-dfs.sh
+* start YARN: $HADOOP_HOME/sbin/start-yarn.sh
+* start Hive: hiveserver2
+* connect to beeline: beeline -u jdbc:hive2://localhost:10000
+* use DBeaver to run query's (seed.hql)
 
 ## Usage
 The answers to the overview questions can be found in src/main/scala.../seed.hql. To run a MapReduce job,
